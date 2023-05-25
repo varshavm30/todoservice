@@ -1,0 +1,10 @@
+<div class="form-group">
+    <label for="todoitem">todo Item</label>
+    <input type="text" #todo class="form-control">
+</div>
+<div class="text-right">
+    <button mat-raised-button color="primary" (click)="onTodoAdd(todo)">
+        Add Todo List
+    </button>
+    <!-- <button class="btn btn-primary" (click)="onTodoAdd(todo)">Add Todo Item</button> -->
+</div>
